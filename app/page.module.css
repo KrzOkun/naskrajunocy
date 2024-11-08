@@ -1,0 +1,18 @@
+.backgroundContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.textOverlay {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #ffffff; /* Kolor tekstu, aby był widoczny na tle */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    white-space: pre-line; /* Umożliwia łamanie linii */
+}

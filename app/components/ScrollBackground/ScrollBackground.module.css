@@ -14,7 +14,7 @@
     height: 120vh;
     position: relative;
     transform-style: preserve-3d;
-    /*animation: cameraPan 3s forwards;*/
+    animation: cameraPan 3s forwards;
 }
 
 .scrollImage {
@@ -28,14 +28,4 @@
     to {
         transform: scale(1.3) rotateX(-5deg) rotateZ(-3deg) translate(200px, 150px);
     }
-}
-
-/* Przykład stylu dla efektu pisania */
-.typed-output {
-    display: block;
-    white-space: pre-line; /* Umożliwia interpretację <br> jako nowej linii */
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    line-height: 1.5; /* Dodaj odstęp między liniami, jeśli potrzebujesz */
 }
